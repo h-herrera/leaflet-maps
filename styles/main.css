@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box; 
+    max-width: 100%; 
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Poppins","Verdana", sans-serif;
+    background: #FFFFF2;
+    color: #1E3302; 
+    max-width: 750px;
+    margin: auto; 
+    font-size: 1.1rem;
+    text-align: left;
+    align-items: center;
+}
+h1 {
+    font-family: "Libre Baskerville","Palatino", serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#container {
+    width: 100%
+}
+#usmap { 
+    height: 500px; 
+}
+p{
+    max-width: 640px;
+}
+
+@media screen and (max-width: 770px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0;
+    }
+    p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #usmap {
+        height: 550px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    #E_map {
+        height: 520px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
